@@ -1,0 +1,6 @@
+interface:
+  display_name: "项目历史问题"
+  short_description: "按对话开启项目问题记录，跟踪复现、排查、修复与验收"
+  default_prompt: "使用 $project-issue-history，开启本次对话的项目历史问题记录。"
+policy:
+  allow_implicit_invocation: false
